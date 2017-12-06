@@ -1,21 +1,33 @@
-# lalitacli
-
-lalitacli
-
-
-# Installation
-
-If you don't use `pipsi`, you're missing out.
-Here are [installation instructions](https://github.com/mitsuhiko/pipsi#readme).
-
-Simply run:
-
-    $ pipsi install .
+#  การใช้งานโปรแกรม lalitacli
+'''sh
+เป็นโปรแกรมใช้ดึงรูปตัวละคร จากเกม ROV นะค่ะ
+'''
 
 
-# Usage
 
-To use it:
+# 1 Git clone โดยการใช้คำสั่ง
+```sh
+git clone https://github.com/lalitasa59ub/linux-lab.git
+```
 
-    $ lalitacli --help
+# 2 เข้าไฟล์โปรแกรม 
+```sh
+cd liux-lab/lalitacli
+```
+
+# 3 ติดตั้งโปรแกรม ต่อไปนี้
+```sh
+pip install --user click Pillow
+pip install --user .
+```
+
+```sh 
+สามารถเริ่มใช้งานโปรแกรมได้แล้วนะค่ะ
+```
+
+ 
+# ตัวอย่างการใช้งานโปรแกรม ใส่ชื่อตัวละครหาเลยนะค่ะ.
+```sh
+lalitacli yorn
+```
 
